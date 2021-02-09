@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="encryptionXORVer2.js"></script>
+    <title>XOR Encryption</title>
+</head>
+
+<body>
+    <h1>XOR Encryption</h1>
+    <div class="body">
+        <h2>
+        Text:
+        ( <span id="encText">...</span> )
+        <br>
+        </h2>
+        <h2>
+        Encryption:
+        ( <span id="enc">...</span> )
+        <br />
+        </h2>
+        <h2>
+        Decryption:
+        ( <span id="dec">...</span> )
+
+        <br />
+        </h2>
+        <textarea rows="10" cols="100" id="txtIn" placeholder="Enter Text"></textarea>
+        <br>
+        <button onclick=clicked()>
+            Process
+        </button>
+
+    </div>
+</body>
+
+</html>
